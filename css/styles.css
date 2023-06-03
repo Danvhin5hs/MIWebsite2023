@@ -13,21 +13,30 @@ header {
 }
 
 nav {
-    background-color: #f4f4f4;
-    padding: 10px;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
+    background-color: #333; /* Color de fondo del nav */
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  nav ul {
+    list-style: none; /* Elimina los estilos de lista por defecto */
     margin: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-}
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block; /* Muestra los elementos en línea */
+  }
+  
+  nav ul li a {
+    color: #fff; /* Color de texto del enlace */
+    text-decoration: none; /* Elimina la subrayado del enlace */
+    padding: 10px; /* Espaciado interno del enlace */
+  }
+  
+  nav ul li a:hover {
+    background-color: #555; /* Color de fondo del enlace al pasar el cursor */
+  }
+  
 
 main {
     max-width: 800px;
