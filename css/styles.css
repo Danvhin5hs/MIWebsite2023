@@ -21,6 +21,7 @@ nav {
     list-style: none; /* Elimina los estilos de lista por defecto */
     margin: 0;
     padding: 0;
+    display: flex;
   }
   
   nav ul li {
@@ -32,10 +33,42 @@ nav {
     text-decoration: none; /* Elimina la subrayado del enlace */
     padding: 10px; /* Espaciado interno del enlace */
   }
+
   
   nav ul li a:hover {
     background-color: #555; /* Color de fondo del enlace al pasar el cursor */
   }
+
+  nav ul li ul{
+  
+    display: block; /* Muestra los elementos en línea */
+  
+
+  }
+  nav ul li ul li {
+   
+    display: block; /* Muestra los elementos en línea */
+    margin: 0.3em;
+    padding: 0.2em;
+    background-color: aqua;
+    
+
+  
+   
+  }
+  nav ul li ul li:hover {
+   
+    display: block; /* Muestra los elementos en línea */
+    margin: 0.3em;
+    padding: 0.2em;
+    background-color: yellow;
+    cursor: pointer;
+    
+
+  
+   
+  }
+ 
   
 
 main {
@@ -50,3 +83,4 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
