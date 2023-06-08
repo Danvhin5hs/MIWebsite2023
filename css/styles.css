@@ -32,6 +32,7 @@ nav {
     color: #fff; /* Color de texto del enlace */
     text-decoration: none; /* Elimina la subrayado del enlace */
     padding: 10px; /* Espaciado interno del enlace */
+    display: block;
   }
 
   
@@ -45,6 +46,7 @@ nav {
   
 
   }
+
 
     nav ul li:hover ul {
   
