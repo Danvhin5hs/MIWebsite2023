@@ -1,12 +1,7 @@
-    const name = 'John';
-    const age = 25;
-    
-    const html = `
-      <div>
-        <h2>${name}</h2>
-        <p>Age: ${age}</p>
-      </div>
-    `;
-    
-    document.getElementById('container').innerHTML = html;
+$(document).ready(function() {
+  const container = $('#container');
   
+  const newDiv = $('<div>').text('Contenido del nuevo div').addClass('custom-div');
+  
+  container.append(newDiv);
+});

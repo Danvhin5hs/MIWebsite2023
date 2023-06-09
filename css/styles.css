@@ -95,3 +95,7 @@ footer {
     text-align: center;
 }
 
+
+#myDiv{
+  display: block;
+}
