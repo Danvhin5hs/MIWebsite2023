@@ -5,10 +5,10 @@
     removeButton.remove();
 
 
-    const newDiv = document.createElement("div");
+    var newDiv = document.createElement("div");
     newDiv.id = "myNewDiv";
     
-    document.getElementById('myNewDiv').innerHTML =+ '<p>No hay Dota ps CTM</p>';
+    newDiv.innerHTML = '<p>No hay Dota ps CTM</p>';
 
 
 
