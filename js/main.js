@@ -1,4 +1,13 @@
 
+  function divTemplate(){
+
+    let addDivBody = document.createElement("div");
+    addDivBody.id = "templateDiv"
+    addDivBody.innerHTML = ""
+
+  }
+  
+  
   function mostrar() {
 
     var removeButton = document.getElementById("dota");
@@ -17,9 +26,14 @@
 
 
 
+
    /*  var element = document.getElementById("dota");
     
     element.innerHTML = "<p>dota</p>"; */
   }
+
+  // Script cantidad de clases
+
+
 
 
