@@ -3,7 +3,7 @@
 
     let addDivBody = document.createElement("div");
     addDivBody.id = "templateDiv"
-    addDivBody.innerHTML = ""
+    addDivBody.innerHTML = "<p> Dota ps </p>"
 
   }
   
