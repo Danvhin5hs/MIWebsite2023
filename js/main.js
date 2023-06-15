@@ -4,6 +4,10 @@
     let addDivBody = document.createElement("div");
     addDivBody.id = "templateDiv"
     addDivBody.innerHTML = "<p> Dota ps </p>"
+    document.body.appendChild(addDivBody);
+
+    let container = document.getElementById("myContainer");
+    container.appendChild(addDivBody);
 
   }
   
